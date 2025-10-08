@@ -6,6 +6,7 @@ class Environment:
         self.actions = ['Move', 'Toggle', 'Stay']
         self.p = 0.7
         self.q = 0.7
+        self.gamma = 0.8
     
     def O(self, s):
        #  only able to get the light status of the current room correctly with probability 0.9
